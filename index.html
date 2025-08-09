@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="html-tag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عالم الذكاء الاصطناعي | AI World</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">AI<span>World</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link" data-i18n="nav.about">عن الذكاء الاصطناعي</a></li>
+                    <li><a href="#how-it-works" class="nav-link" data-i18n="nav.how">كيف يعمل</a></li>
+                    <li><a href="#build" class="nav-link" data-i18n="nav.build">كيف تصنعه</a></li>
+                    <li><a href="#future" class="nav-link" data-i18n="nav.future">المستقبل</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="nav.contact">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button id="language-switcher" class="lang-btn">EN</button>
+                <button class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-i18n="hero.title">اكتشف قوة الذكاء الاصطناعي</h1>
+                <p data-i18n="hero.subtitle">رحلة تفاعلية لفهم وتعلم وتطوير أنظمة الذكاء الاصطناعي</p>
+                <div class="cta-buttons">
+                    <a href="#start" class="btn btn-primary" data-i18n="hero.cta1">ابدأ التعلم</a>
+                    <a href="#demo" class="btn btn-outline" data-i18n="hero.cta2">شاهد العرض</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400?text=AI+Illustration" alt="Artificial Intelligence" class="hero-img">
+                <div class="circle-animation"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم ما هو الذكاء الاصطناعي -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="about.title">ما هو الذكاء الاصطناعي؟</h2>
+                <p data-i18n="about.subtitle">فهم الأساسيات والمفاهيم الرئيسية</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about.text1">الذكاء الاصطناعي (AI) هو محاكاة عمليات الذكاء البشري بواسطة الآلات، وخاصة أنظمة الكمبيوتر.</p>
+                    <p data-i18n="about.text2">تشمل التطبيقات المحددة للذكاء الاصطناعي الأنظمة الخبيرة، ومعالجة اللغة الطبيعية، والتعرف على الصور، والرؤية الحاسوبية، والروبوتات.</p>
+                    <ul class="ai-types">
+                        <li data-i18n="about.type1">التعلم الآلي (Machine Learning)</li>
+                        <li data-i18n="about.type2">الشبكات العصبية (Neural Networks)</li>
+                        <li data-i18n="about.type3">التعلم العميق (Deep Learning)</li>
+                        <li data-i18n="about.type4">معالجة اللغة الطبيعية (NLP)</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/500x350?text=AI+Types" alt="AI Types">
+                    <div class="timeline-animation"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم كيف يعمل -->
+    <section class="section how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="how.title">كيف يعمل الذكاء الاصطناعي؟</h2>
+                <p data-i18n="how.subtitle">عملية تعلم الآلة خطوة بخطوة</p>
+            </div>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 data-i18n="how.step1.title">جمع البيانات</h3>
+                    <p data-i18n="how.step1.text">البيانات هي الوقود الذي يغذي أنظمة الذكاء الاصطناعي</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h3 data-i18n="how.step2.title">بناء النموذج</h3>
+                    <p data-i18n="how.step2.text">تصميم خوارزميات التعلم الآلي المناسبة للمشكلة</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 data-i18n="how.step3.title">تدريب النموذج</h3>
+                    <p data-i18n="how.step3.text">استخدام البيانات لتعليم النموذج كيفية اتخاذ القرارات</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-i18n="how.step4.title">التقييم والتحسين</h3>
+                    <p data-i18n="how.step4.text">اختبار دقة النموذج وتحسينه باستمرار</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم كيف تصنع نظام ذكاء اصطناعي -->
+    <section class="section build" id="build">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="build.title">كيف تصنع نظام ذكاء اصطناعي؟</h2>
+                <p data-i18n="build.subtitle">دليل عملي للمبتدئين</p>
+            </div>
+            <div class="build-content">
+                <div class="code-example">
+                    <pre><code class="python">
+# مثال بسيط لتعلم الآلة باستخدام Python
+from sklearn import datasets
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+
+# تحميل مجموعة البيانات
+iris = datasets.load_iris()
+X = iris.data
+y = iris.target
+
+# تقسيم البيانات
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+
+# إنشاء وتدريب النموذج
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+
+# تقييم النموذج
+accuracy = model.score(X_test, y_test)
+print(f"دقة النموذج: {accuracy:.2f}")
+                    </code></pre>
+                </div>
+                <div class="build-steps">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3 data-i18n="build.step1.title">اختر لغة البرمجة</h3>
+                        <p data-i18n="build.step1.text">بايثون هي الأكثر شيوعًا في مجال الذكاء الاصطناعي</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3 data-i18n="build.step2.title">تعلم المكتبات الأساسية</h3>
+                        <p data-i18n="build.step2.text">مثل TensorFlow, PyTorch, scikit-learn</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3 data-i18n="build.step3.title">ابدأ بمشاريع بسيطة</h3>
+                        <p data-i18n="build.step3.text">مثل تصنيف الصور أو تحليل المشاعر</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم مستقبل الذكاء الاصطناعي -->
+    <section class="section future" id="future">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="future.title">مستقبل الذكاء الاصطناعي</h2>
+                <p data-i18n="future.subtitle">التوقعات والتحديات القادمة</p>
+            </div>
+            <div class="future-content">
+                <div class="future-card">
+                    <div class="future-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 data-i18n="future.card1.title">الروبوتات الذكية</h3>
+                    <p data-i18n="future.card1.text">ستصبح الروبوتات أكثر ذكاءً وقدرة على التفاعل مع البشر</p>
+                </div>
+                <div class="future-card">
+                    <div class="future-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 data-i18n="future.card2.title">الرعاية الصحية</h3>
+                    <p data-i18n="future.card2.text">تشخيص أكثر دقة وعلاجات شخصية</p>
+                </div>
+                <div class="future-card">
+                    <div class="future-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3 data-i18n="future.card3.title">التعليم</h3>
+                    <p data-i18n="future.card3.text">تعليم مخصص لكل طالب بناءً على احتياجاته</p>
+                </div>
+            </div>
+            <div class="future-chart">
+                <canvas id="aiGrowthChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-i18n="contact.title">اتصل بنا</h2>
+                <p data-i18n="contact.subtitle">نحن هنا للإجابة على استفساراتك</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="الاسم" required data-i18n-placeholder="contact.name">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="البريد الإلكتروني" required data-i18n-placeholder="contact.email">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="رسالتك" required data-i18n-placeholder="contact.message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" data-i18n="contact.submit">إرسال الرسالة</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo">AI<span>World</span></a>
+                    <p data-i18n="footer.about">موقع متخصص في الذكاء الاصطناعي وتطبيقاته المستقبلية</p>
+                </div>
+                <div class="footer-links">
+                    <h3 data-i18n="footer.links">روابط سريعة</h3>
+                    <ul>
+                        <li><a href="#about" data-i18n="nav.about">عن الذكاء الاصطناعي</a></li>
+                        <li><a href="#how-it-works" data-i18n="nav.how">كيف يعمل</a></li>
+                        <li><a href="#build" data-i18n="nav.build">كيف تصنعه</a></li>
+                        <li><a href="#future" data-i18n="nav.future">المستقبل</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3 data-i18n="footer.social">تابعنا</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">&copy; 2023 AI World. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
